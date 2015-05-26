@@ -1,0 +1,158 @@
+/* Typography */
+h1, h2 {
+	font-family: 'Sigmar One', cursive, sans-serif;
+}
+
+h1 {
+	color: DarkGray;
+}
+
+h2 {
+	color: LightSalmon;
+}
+
+h3 {
+	color: LightBlue;
+}
+
+h4 {
+	color: MediumSpringGreen;
+}
+
+h3, p {
+	font-family: 'Exo 2', sans-serif;
+}
+
+h4 {
+	font-family: 'Architects Daughter', cursive;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+.italic {
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.bold {
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+/* Set Your Own Margin & Padding */
+
+.container {
+	width: 85%;
+}
+
+h1, h2, h3, h4 {
+	font-size: 3em;
+}
+
+h1, h2, h3, h4, em, p {
+	text-align: center;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+.section {
+	width: 350px;
+	margin: 0 auto;
+	background: AntiqueWhite;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+.color-1 {
+	background: #70B24F;
+}
+
+.color-2 {
+	background: #CBFFB2;
+}
+
+.color-3 {
+	background: #FFB7FD;
+}
+
+.imagery-1 {
+	background-image: url("../img/dance.jpg");
+	background-size: 80px;
+	background-repeat: no-repeat;
+}
+
+.imagery-2 {
+	background-image: url("../img/ny.jpg");
+	background-size: 77px;
+	background-repeat: no-repeat;
+}
+
+.imagery-3 {
+	background-image: url("../img/snoho.jpg");
+	background-size: 100px;
+	background-repeat: no-repeat;
+}
+
+.pattern-1 {
+	background: url("../img/halftone.png");
+}
+
+.pattern-2 {
+	background: url("../img/crossword.png");
+}
+
+.pattern-3 {
+	background: url("../img/black_thread.png");
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
+
+a:link {
+	color: #000;
+	text-decoration: none;
+	text-transform: smallcaps;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+a:visited {
+	color: #FFB7FD;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #70B24F;
+}
+
+a:active {
+	color: #CBFFB2;
+}
+
+
+
+
